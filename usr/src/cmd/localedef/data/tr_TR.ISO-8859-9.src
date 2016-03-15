@@ -1,0 +1,148 @@
+comment_char *
+escape_char /
+
+*************************************************************************************************
+* POSIX Locale                                                                                  *
+* Generated automatically from the Unicode Character Database and Common Locale Data Repository *
+* see http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap07.html                    *
+* Locale Name : tr_TR   Codeset : ISO-8859-9
+*************************************************************************************************
+* Copyright 1991-2013 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
+* http://www.unicode.org/copyright.html.                                                        *
+*                                                                                               *
+* Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode   *
+* data files and any associated documentation (the "Data Files") or Unicode software and any    *
+* associated documentation (the "Software") to deal in the Data Files or Software without       *
+* restriction, including without limitation the rights to use, copy, modify, merge, publish,    *
+* distribute, and/or sell copies of the Data Files or Software, and to permit persons to whom   *
+* the Data Files or Software are furnished to do so, provided that (a) the above copyright      *
+* notice(s) and this permission notice appear with all copies of the Data Files or Software,    *
+* (b) both the above copyright notice(s) and this permission notice appear in associated        *
+* documentation, and (c) there is clear notice in each modified Data File or in the Software as *
+* well as in the documentation associated with the Data File(s) or Software that the data or    *
+* software has been modified.                                                                   *
+*                                                                                               *
+* THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR    *
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A        *
+* PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT *
+* HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR *
+* CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, *
+* WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN   *
+* CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.                         *
+*************************************************************************************************
+
+*************
+
+
+*************
+*************
+LC_NUMERIC
+*************
+
+decimal_point     "<COMMA>"
+thousands_sep     "<FULL_STOP>"
+grouping          3
+
+END LC_NUMERIC
+
+
+*************
+LC_MONETARY
+*************
+
+int_curr_symbol       "<T><R><Y><space>"
+currency_symbol       "<T><L>"
+mon_decimal_point     "<COMMA>"
+mon_thousands_sep     "<FULL_STOP>"
+mon_grouping          3
+positive_sign         ""
+negative_sign         "<HYPHEN-MINUS>"
+int_frac_digits       2
+frac_digits           2
+p_cs_precedes         0
+p_sep_by_space        1
+n_cs_precedes         0
+n_sep_by_space        1
+p_sign_posn           1
+n_sign_posn           1
+int_p_cs_precedes     0
+int_p_sep_by_space    1
+int_n_cs_precedes     0
+int_n_sep_by_space    1
+int_p_sign_posn       1
+int_n_sign_posn       1
+
+END LC_MONETARY
+
+
+*************
+LC_TIME
+*************
+
+abday   "<P><a><z>";/
+        "<P><z><t>";/
+        "<S><a><l>";/
+        "<LATIN_CAPITAL_LETTER_C_WITH_CEDILLA><a><r>";/
+        "<P><e><r>";/
+        "<C><u><m>";/
+        "<C><m><t>"
+
+day     "<P><a><z><a><r>";/
+        "<P><a><z><a><r><t><e><s><i>";/
+        "<S><a><l><LATIN_SMALL_LETTER_DOTLESS_I>";/
+        "<LATIN_CAPITAL_LETTER_C_WITH_CEDILLA><a><r><LATIN_SMALL_LETTER_S_WITH_CEDILLA><a><m><b><a>";/
+        "<P><e><r><LATIN_SMALL_LETTER_S_WITH_CEDILLA><e><m><b><e>";/
+        "<C><u><m><a>";/
+        "<C><u><m><a><r><t><e><s><i>"
+
+abmon   "<O><c><a>";/
+        "<LATIN_CAPITAL_LETTER_S_WITH_CEDILLA><u><b>";/
+        "<M><a><r>";/
+        "<N><i><s>";/
+        "<M><a><y>";/
+        "<H><a><z>";/
+        "<T><e><m>";/
+        "<A><LATIN_SMALL_LETTER_G_WITH_BREVE><u>";/
+        "<E><y><l>";/
+        "<E><k><i>";/
+        "<K><a><s>";/
+        "<A><r><a>"
+
+mon     "<O><c><a><k>";/
+        "<LATIN_CAPITAL_LETTER_S_WITH_CEDILLA><u><b><a><t>";/
+        "<M><a><r><t>";/
+        "<N><i><s><a><n>";/
+        "<M><a><y><LATIN_SMALL_LETTER_DOTLESS_I><s>";/
+        "<H><a><z><i><r><a><n>";/
+        "<T><e><m><m><u><z>";/
+        "<A><LATIN_SMALL_LETTER_G_WITH_BREVE><u><s><t><o><s>";/
+        "<E><y><l><LATIN_SMALL_LETTER_U_WITH_DIAERESIS><l>";/
+        "<E><k><i><m>";/
+        "<K><a><s><LATIN_SMALL_LETTER_DOTLESS_I><m>";/
+        "<A><r><a><l><LATIN_SMALL_LETTER_DOTLESS_I><k>"
+
+d_fmt    "%e.%m.%Y"
+
+t_fmt    "%H:%M:%S"
+
+d_t_fmt  "%e %B %Y %H:%M:%S %Z"
+
+am_pm    "<LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS><LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS>";"<LATIN_CAPITAL_LETTER_O_WITH_DIAERESIS><S>"
+
+t_fmt_ampm  "%p %I:%M:%S"
+
+END LC_TIME
+*************
+LC_MESSAGES
+*************
+
+yesstr   "evet:e:EVET:E:yes:y:YES:Y"
+
+nostr    "hay<LATIN_SMALL_LETTER_DOTLESS_I>r:hayir:h:HAYIR:HAY<LATIN_CAPITAL_LETTER_I_WITH_DOT_ABOVE>R:H:no:n:NO:N"
+
+yesexpr  "^(([eE]([vV][eE][tT])?)|([eE])|([yY]([eE][sS])?)|([yY]))"
+
+noexpr   "^(([hH]([aA][yY][<LATIN_SMALL_LETTER_DOTLESS_I>I][rR])?)|([hH]([aA][yY][iI][rR])?)|([hH])|([nN]([oO])?)|([nN]))"
+
+
+END LC_MESSAGES

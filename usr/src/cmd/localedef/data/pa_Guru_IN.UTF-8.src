@@ -1,0 +1,148 @@
+comment_char *
+escape_char /
+
+*************************************************************************************************
+* POSIX Locale                                                                                  *
+* Generated automatically from the Unicode Character Database and Common Locale Data Repository *
+* see http://www.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap07.html                    *
+* Locale Name : pa_Guru_IN   Codeset : UTF-8
+*************************************************************************************************
+* Copyright 1991-2013 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in  *
+* http://www.unicode.org/copyright.html.                                                        *
+*                                                                                               *
+* Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode   *
+* data files and any associated documentation (the "Data Files") or Unicode software and any    *
+* associated documentation (the "Software") to deal in the Data Files or Software without       *
+* restriction, including without limitation the rights to use, copy, modify, merge, publish,    *
+* distribute, and/or sell copies of the Data Files or Software, and to permit persons to whom   *
+* the Data Files or Software are furnished to do so, provided that (a) the above copyright      *
+* notice(s) and this permission notice appear with all copies of the Data Files or Software,    *
+* (b) both the above copyright notice(s) and this permission notice appear in associated        *
+* documentation, and (c) there is clear notice in each modified Data File or in the Software as *
+* well as in the documentation associated with the Data File(s) or Software that the data or    *
+* software has been modified.                                                                   *
+*                                                                                               *
+* THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR    *
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A        *
+* PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT *
+* HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR *
+* CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, *
+* WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN   *
+* CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.                         *
+*************************************************************************************************
+
+*************
+
+
+*************
+*************
+LC_NUMERIC
+*************
+
+decimal_point     "<FULL_STOP>"
+thousands_sep     "<COMMA>"
+grouping          3;2
+
+END LC_NUMERIC
+
+
+*************
+LC_MONETARY
+*************
+
+int_curr_symbol       "<I><N><R><space>"
+currency_symbol       "<INDIAN_RUPEE_SIGN>"
+mon_decimal_point     "<FULL_STOP>"
+mon_thousands_sep     "<COMMA>"
+mon_grouping          3;2
+positive_sign         ""
+negative_sign         "<HYPHEN-MINUS>"
+int_frac_digits       2
+frac_digits           2
+p_cs_precedes         1
+p_sep_by_space        1
+n_cs_precedes         1
+n_sep_by_space        1
+p_sign_posn           1
+n_sign_posn           1
+int_p_cs_precedes     1
+int_p_sep_by_space    1
+int_n_cs_precedes     1
+int_n_sep_by_space    1
+int_p_sign_posn       1
+int_n_sign_posn       1
+
+END LC_MONETARY
+
+
+*************
+LC_TIME
+*************
+
+abday   "<GURMUKHI_LETTER_AI><GURMUKHI_LETTER_TA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_VOWEL_SIGN_OO><GURMUKHI_LETTER_MA>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_TIPPI><GURMUKHI_LETTER_GA><GURMUKHI_LETTER_LA>";/
+        "<GURMUKHI_LETTER_BA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_ADDAK><GURMUKHI_LETTER_DHA>";/
+        "<GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_II><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_SIGN_NUKTA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_ADDAK><GURMUKHI_LETTER_KA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_SIGN_NUKTA><GURMUKHI_LETTER_NA><GURMUKHI_VOWEL_SIGN_I><GURMUKHI_ADDAK><GURMUKHI_LETTER_CA><GURMUKHI_LETTER_RA>"
+
+day     "<GURMUKHI_LETTER_AI><GURMUKHI_LETTER_TA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_VOWEL_SIGN_OO><GURMUKHI_LETTER_MA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_TIPPI><GURMUKHI_LETTER_GA><GURMUKHI_LETTER_LA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_BA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_ADDAK><GURMUKHI_LETTER_DHA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_II><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_SIGN_NUKTA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_ADDAK><GURMUKHI_LETTER_KA><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_SIGN_NUKTA><GURMUKHI_LETTER_NA><GURMUKHI_VOWEL_SIGN_I><GURMUKHI_ADDAK><GURMUKHI_LETTER_CA><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_VA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA>"
+
+abmon   "<GURMUKHI_LETTER_JA><GURMUKHI_LETTER_NA>";/
+        "<GURMUKHI_LETTER_PHA><GURMUKHI_SIGN_NUKTA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_CA>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_PA><GURMUKHI_SIGN_VIRAMA><GURMUKHI_LETTER_RA><GURMUKHI_VOWEL_SIGN_AI>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_LETTER_II>";/
+        "<GURMUKHI_LETTER_JA><GURMUKHI_VOWEL_SIGN_UU><GURMUKHI_LETTER_NA>";/
+        "<GURMUKHI_LETTER_JA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_LETTER_LA><GURMUKHI_VOWEL_SIGN_AA>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_GA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_LETTER_TA><GURMUKHI_TIPPI>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_KA><GURMUKHI_LETTER_TA><GURMUKHI_VOWEL_SIGN_UU>";/
+        "<GURMUKHI_LETTER_NA><GURMUKHI_LETTER_VA><GURMUKHI_TIPPI>";/
+        "<GURMUKHI_LETTER_DA><GURMUKHI_LETTER_SA><GURMUKHI_TIPPI>"
+
+mon     "<GURMUKHI_LETTER_JA><GURMUKHI_LETTER_NA><GURMUKHI_LETTER_VA><GURMUKHI_LETTER_RA><GURMUKHI_VOWEL_SIGN_II>";/
+        "<GURMUKHI_LETTER_PHA><GURMUKHI_SIGN_NUKTA><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_VA><GURMUKHI_LETTER_RA><GURMUKHI_VOWEL_SIGN_II>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_RA><GURMUKHI_LETTER_CA>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_PA><GURMUKHI_SIGN_VIRAMA><GURMUKHI_LETTER_RA><GURMUKHI_VOWEL_SIGN_AI><GURMUKHI_LETTER_LA>";/
+        "<GURMUKHI_LETTER_MA><GURMUKHI_LETTER_II>";/
+        "<GURMUKHI_LETTER_JA><GURMUKHI_VOWEL_SIGN_UU><GURMUKHI_LETTER_NA>";/
+        "<GURMUKHI_LETTER_JA><GURMUKHI_VOWEL_SIGN_U><GURMUKHI_LETTER_LA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_LETTER_II>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_GA><GURMUKHI_LETTER_SA><GURMUKHI_LETTER_TA>";/
+        "<GURMUKHI_LETTER_SA><GURMUKHI_LETTER_TA><GURMUKHI_TIPPI><GURMUKHI_LETTER_BA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_A><GURMUKHI_LETTER_KA><GURMUKHI_LETTER_TA><GURMUKHI_VOWEL_SIGN_UU><GURMUKHI_LETTER_BA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_NA><GURMUKHI_LETTER_VA><GURMUKHI_TIPPI><GURMUKHI_LETTER_BA><GURMUKHI_LETTER_RA>";/
+        "<GURMUKHI_LETTER_DA><GURMUKHI_LETTER_SA><GURMUKHI_TIPPI><GURMUKHI_LETTER_BA><GURMUKHI_LETTER_RA>"
+
+d_fmt    "%e<SOLIDUS>%m<SOLIDUS>%y"
+
+t_fmt    "%I:%M:%S %p"
+
+d_t_fmt  "%e %B %Y %I:%M:%S %p %Z"
+
+am_pm    "<GURMUKHI_LETTER_PA><GURMUKHI_VOWEL_SIGN_UU><FULL_STOP><GURMUKHI_LETTER_DA><GURMUKHI_VOWEL_SIGN_U><FULL_STOP>";"<GURMUKHI_LETTER_BA><GURMUKHI_VOWEL_SIGN_AA><FULL_STOP><GURMUKHI_LETTER_DA><GURMUKHI_VOWEL_SIGN_U><FULL_STOP>"
+
+t_fmt_ampm  "%I:%M:%S %p"
+
+END LC_TIME
+*************
+LC_MESSAGES
+*************
+
+yesstr   "<GURMUKHI_LETTER_HA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_SIGN_BINDI>:yes:y:YES:Y"
+
+nostr    "<GURMUKHI_LETTER_NA><GURMUKHI_LETTER_HA><GURMUKHI_VOWEL_SIGN_II><GURMUKHI_SIGN_BINDI>:<GURMUKHI_LETTER_NA>:no:n:NO:N"
+
+yesexpr  "^((<GURMUKHI_LETTER_HA><GURMUKHI_VOWEL_SIGN_AA><GURMUKHI_SIGN_BINDI>)|([yY]([eE][sS])?)|([yY]))"
+
+noexpr   "^((<GURMUKHI_LETTER_NA><GURMUKHI_LETTER_HA><GURMUKHI_VOWEL_SIGN_II><GURMUKHI_SIGN_BINDI>)|(<GURMUKHI_LETTER_NA>)|([nN]([oO])?)|([nN]))"
+
+
+END LC_MESSAGES
